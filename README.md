@@ -1,6 +1,8 @@
-# Dissolve Shader Three.js
+# Dissolving Cards with Three.js
 
-A small showcase of a dissolve shader. Inspired by the Shader chapter in [Bruno Simon's](https://twitter.com/bruno_simon) excellent course on ThreeJS.  Written with [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber).
+A small showcase of a dissolve shader. Inspired by the Shader chapter
+in [Bruno Simon's](https://twitter.com/bruno_simon) excellent course on ThreeJS. Written
+with [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber).
 
 ![promo](./shader-promo.gif)
 
@@ -23,3 +25,11 @@ npm run dev
 ```
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+
+# Todos
+
+* [ ] Add hover state
+* [ ] Add cards
+
+
+https://opengameart.org/content/vintage-playing-cards
