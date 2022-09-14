@@ -82,6 +82,7 @@ function Card({texture, position, onDestroyComplete}: CardProps) {
         }
 
         // Update shader time
+        // @ts-ignore
         ref.current.material.uTime += delta
     })
 
@@ -136,10 +137,8 @@ function App() {
                 })}
             </Canvas>
             <ul className="credits">
-                <li>🧛 By <a href="https://twitter.com/Wahlstra">@Wahlstra</a> with ThreeJS (R3F). Source <a
-                    href="https://github.com/magnuswahlstrand/demo-r3f-dissolve-shader">here</a></li>
-                <li>🧊 Inspiration by Bruno Simon's <a href="https://threejs-journey.com/">excellent course on Three
-                    JS</a></li>
+                <li>🧛 By <a href="https://twitter.com/Wahlstra">@Wahlstra</a>, using ThreeJS. Source <a href="https://github.com/magnuswahlstrand/demo-threejs-dissolving-cards">here</a></li>
+                <li>🃏 Art by <a href="https://opengameart.org/users/minime453">minime453</a> from <a href="https://opengameart.org/content/vintage-playing-cards">OpenGameArt</a></li>
             </ul>
         </>
     )

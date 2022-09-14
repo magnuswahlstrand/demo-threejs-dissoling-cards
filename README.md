@@ -1,14 +1,14 @@
 # Dissolving Cards with Three.js
 
-A small showcase of a dissolve shader. Inspired by the Shader chapter
+A small showcase of a dissolve shader and some animation. Inspired by the Shader chapter
 in [Bruno Simon's](https://twitter.com/bruno_simon) excellent course on ThreeJS. Written
 with [React-Three-Fiber](https://github.com/pmndrs/react-three-fiber).
 
-![promo](./shader-promo.gif)
+![promo](./promo.gif)
 
 ## Live Demo
 
-Head over to https://demo-r3f-dissolve-shader.vercel.app/ to see the project live.
+Head over to [demo-threejs-dissolving-cards.vercel.app](https://demo-threejs-dissolving-cards.vercel.app) to see the project live.
 
 ## Running locally
 
@@ -26,10 +26,14 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
+# Credits
+
+Vintage cards [minime453](https://opengameart.org/users/minime453) by on [OpenGameArt](https://opengameart.org/content/vintage-playing-cards).
+
 # Todos
 
-* [ ] Add hover state
-* [ ] Add cards
-
-
-https://opengameart.org/content/vintage-playing-cards
+* [x] Add hover state
+* [x] Add cards
+* [x] Destroy cards
+* [x] Add credit
+* [x] Update README
